@@ -5,3 +5,4 @@ def isPrime(num)=
     if num % i == 0:
       return False
       return False
+    end
