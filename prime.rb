@@ -1,10 +1,18 @@
-def is_prime?(num)
-   for x in 2..num-1
-      print x
-      if num % x == 0
-         return false
-      else
-         return true
-      end
-   end
-end 
+def isPrime(n): 
+      
+    # Corner case 
+    if (n <= 1): 
+        return False
+  
+    # Check from 2 to n-1 
+    for i in range(2, n): 
+        if (n % i == 0): 
+            return False
+  
+    return True
+  
+# Driver Program  
+if isPrime(11): 
+    print ("true") 
+else: 
+    print ("false") 
