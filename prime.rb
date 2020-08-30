@@ -1,11 +1,6 @@
 def prime?(num)
-  if num < 2
-    return FALSE
-    for i in range(2, int(math.sqrt(num)) + 1)
-    if num % i == 0
-      return FALSE
-      return True
-    end
+ (2..(num - 1)).each do |n|
+  return false if num % n == 0
   end
-end
+  true
 end
