@@ -6,3 +6,4 @@ def isPrime(num)
       return False
       return True
     end
+  end
