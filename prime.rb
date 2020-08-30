@@ -7,6 +7,9 @@ def prime?(num)
       else
         break
       end
-      
     end
+  end
+end
+      
+  
   
