@@ -8,3 +8,4 @@ def isPrime(num)
     end
   end
 end
+end
