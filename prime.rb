@@ -7,3 +7,4 @@ def isPrime(num)
       return True
     end
   end
+end
