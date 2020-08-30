@@ -5,10 +5,3 @@ def prime?(num)
   true
 end
 
-num= (-1)
-def prime?(num)
-  num.each do |n|
-    return true if num % n== 0
-  end
-  false
-end
